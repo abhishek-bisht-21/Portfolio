@@ -1,9 +1,9 @@
 :root {
-	--cream: #ecdbad;
-	--sage: #C15143;
-	--deepgreen: #4B402A;
-	--taupe: #CCDBB2;
-	--eggshell: #F1FACF
+	--teal: #031634;
+	--cobalt: #033649;
+	--turquoise: #066464;
+	--beige: #CEB280;
+	--gold: #EADDCC
 }
 
 html {
@@ -15,5 +15,8 @@ html {
 }
 
 body{
-	background-color: var(--taupe);
+	margin: 0;
+	padding: 0;
+	background-color: var(--teal);
+	color: white;
 }
