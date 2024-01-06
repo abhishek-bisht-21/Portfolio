@@ -63,3 +63,19 @@ h1, h2, h3, h4, h5, h6 {
 .experience a {
 	color: white;
 }
+
+#hire{
+	width: 400px;
+	text-align: center;
+	margin: 0 auto ;
+	padding: 3rem 0;
+	background-color: var(--turquoise);
+}
+
+#hire p:last-child {
+	margin-top: 3rem;
+}
+
+.section-turquoise{
+	background-color: var(--turquoise);
+}
