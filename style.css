@@ -1,0 +1,19 @@
+:root {
+	--cream: #ecdbad;
+	--sage: #C15143;
+	--deepgreen: #4B402A;
+	--taupe: #CCDBB2;
+	--eggshell: #F1FACF
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+body{
+	background-color: var(--taupe);
+}
