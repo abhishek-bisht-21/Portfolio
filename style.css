@@ -79,3 +79,22 @@ h1, h2, h3, h4, h5, h6 {
 .section-turquoise{
 	background-color: var(--turquoise);
 }
+
+nav{
+	font-size: 80%;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+nav a {
+	color: white;
+}
