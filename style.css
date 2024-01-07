@@ -151,3 +151,8 @@ nav li:first-child {
 	height: 2px;
 	background: linear-gradient(90deg, rgba(34, 193, 195,1) 0%, rgba(253,187,45,1) 100%);
 }
+
+footer{
+	text-align: center;
+	padding: 2rem 0;
+}
