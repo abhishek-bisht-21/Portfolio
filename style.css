@@ -58,13 +58,16 @@ h6 {
   font-weight: normal;
 }
 
-.experience ul {
+#experience ul {
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
+  border: solid white 2px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-.experience li {
+#experience li {
   list-style-type: none;
   padding: 1rem;
 }
@@ -160,4 +163,21 @@ nav li:first-child {
 footer {
   text-align: center;
   padding: 2rem 0;
+}
+
+.my-pic{
+	max-height: 400px;
+	max-width: 200px;
+}
+
+.my-pic img{
+	width: 100%;
+}
+
+#experience{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
